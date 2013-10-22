@@ -1,0 +1,33 @@
+{
+  "name": "lystn",
+  "version": "0.0.0",
+  "description": "Music recommendations from the people who know you best",
+  "main": "server.js",
+  "dependencies": {
+    "express": "3.3.4",
+    "ejs-locals": "~1.0.2",
+    "socket.io": "~0.9.14",
+    "mongodb": "~1.3.7",
+    "nodemailer": "~0.4.4",
+    "knox": "~0.8.3",
+    "knox-mpu": "~0.1.0",
+    "fbgraph": "~0.2.6",
+    "express-form": "~0.8.1",
+    "mongojs": "~0.7.8",
+    "moment": "~2.0.0",
+    "passport": "~0.1.17",
+    "ejs": "~0.8.4",
+    "s3policy": "~0.0.1",
+    "jade": "~0.31.2",
+    "passport-facebook": "~0.1.5",
+    "uploader": "~0.0.3-3",
+    "express": "~3.2.4",
+    "connect-flash": "~0.1.1",
+    "forever": "~0.10.8"
+  },
+
+  "author": "Desikan Jagannathan",
+  "license": "BSD",
+  "readmeFilename": "README.txt"
+}  
+

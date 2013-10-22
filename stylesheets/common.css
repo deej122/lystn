@@ -1,0 +1,50 @@
+html{
+	padding-right: 50px;
+	padding-left: 50px;
+    min-width: 100%;
+    min-height: 100%;
+	background: #FFFFFF repeat center center fixed;
+    background-image: url('bg1.png');    
+    color: rgba(0, 0, 0, .8);
+	font-family: 'Brandon Grotesque', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+.header{
+	color: #FFFFFF;
+	float: left;
+	margin-left: 50px;
+	font-size: 120px;
+	font-family:'Chango', cursive;
+}
+
+.brand{
+	width: 40%;
+}
+
+#hashtag{
+	float: left;
+	vertical-align: top;
+	font-size: 80px;
+	color: #0084B4;
+}
+
+.tagline{
+	float: left;
+	margin-left: 79px;
+	font-size: 12px;
+}
+
+.headerLink{
+	font-family: 'Brandon Grotesque', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.headerLink:hover{
+	text-decoration: underline;
+}

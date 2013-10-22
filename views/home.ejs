@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title%></title>
+    <meta name="description" content="">   
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <link rel="stylesheet" type="text/css" href="home.css">  
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        overflow: auto;
+      }
+
+    </style>
+  </head>
+  
+<body style="margin:0;">
+  <a href="/auth/twitter" id="login" class="twitter-button">
+    <i class="icon-twitter"></i>
+    Sign in with Twitter
+  </a>
+  <header class="header">
+        <span id="brand" class="brand"><span id="hashtag">#</span>lystn</span>
+        <a href="/" class="headerLink" id="about">How it works</a>
+        <a href="/" class="headerLink" id="why">Why we do it</a>
+        <br>
+        <span class="tagline">Recommend and discover music, all with a hashtag</span>
+  </header>
+
+  <div class="body">
+<!--
+    <a href="/" id="login" class="twitter-button">
+      <i class="icon-twitter"></i>
+      Sign in with Twitter
+    </a>
+-->
+    <div id="sampleFeed">
+      <a class="twitter-timeline" href="https://twitter.com/search?q=%23lystn" data-widget-id="392517683662426112">Tweets about "#lystn"</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+
+  </div>
+
+</body>
+</html>
